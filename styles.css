@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6em;
+	font-family: 'Jost', sans-serif;
+}
+
+main{
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.fa-redo-alt{
+	font-size: 4em;
+	cursor: pointer;
+}
+
+.res{
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 2em;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.res p{
+	font-size: 1.9em;
+	padding: 1.2em;
+}
+
+@media (max-width: 900px){
+	.res p{
+		font-size: 1em;
+		padding: 1.2em;
+	}
+
+	.fa-redo-alt{
+		font-size: 2em;
+	}
+	
+	.res{
+		width: 90%;
+	}
+
+}
